@@ -37,7 +37,7 @@ function post_value($field)
   <div class="navbar">
     <nav>
 
-      <img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155" height="65">
+      <img src="Images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155" height="65">
       
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
