@@ -13,7 +13,7 @@
 	<div class="navbar">
 		<nav>
 
-			<img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155" height="65">
+			<img src="Images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155" height="65">
 
 			<a href="index.html">Home</a>
 			<a href="about.html">About</a>
@@ -54,7 +54,7 @@
 			<a href="register.php">Register</a>
 			<a href="logout.php">Logout</a>
 			<!-- Source of image: <a href="<a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Freepik - Flaticon</a>-->
-			<a href="index.html"><img src="images/open-book.png" alt="book icon" width="100" height="80"></a>
+			<a href="index.html"><img src="Images/open-book.png" alt="book icon" width="100" height="80"></a>
 		</nav>
 	</div>
 	<?php
