@@ -49,7 +49,7 @@ function post_value($field)
     <div class="navbar">
         <nav>
 
-            <img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155" height="65">
+            <img src="Images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155" height="65">
 
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -89,8 +89,7 @@ function post_value($field)
             <a href="login.php">Login</a>
             <a href="register.php">Register</a>
             <a href="logout.php">Logout</a>
-            <!--<img src="C:\Users\adida\OneDrive - Carleton University\Year 4\Semester 2\IRM4900A (IRM Capstone Project)\IRM Capstone Project Research Paper & Presentation\Work\Code\Toan\Images\search.svg" alt="logo">-->
-        </nav>
+      </nav>
 
     </div>
     </div>
