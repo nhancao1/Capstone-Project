@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <h1>University Home Page</h1>
+  <title>Home Page</title>
+</head>
+
+<body>
+  <div class="navbar">
+
+    <nav>
+      <img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="160"
+        height="80">
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.php">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Insert Into Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="books.html">Books</a>
+          <a href="journals.html">Journals</a>
+          <a href="dissertations.html">Dissertations</a>
+          <a href="images.html">Images</a>
+          <a href="videos.html">Videos</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Modify Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="modifybooks.php">Modify Books</a>
+          <a href="modifyjournals.php">Modify Journals</a>
+          <a href="modifydissertations.php">Modify Dissertations</a>
+          <a href="modifyimages.php">Modify Images</a>
+          <a href="modifyvideos.php">Modify Videos</a>
+        </div>
+      </div>
+      <form method="post">
+        <select name="keywords">
+          <option value="">All Fields</option>
+          <option value="">Keywords</option>
+          <option value="title">Title</option>
+          <option value="author">Author</option>
+          <option value="creator">Creator</option>
+          <option value="publication_date">Publication Date</option>
+          <option value="subject">Subject</option>
+        </select>
+      </form>
+      <input type="text" placeholder="Search">
+      <a href="login.php">Login</a>
+      <a href="register.php">Register</a>
+      <a href="logout.php">Logout</a>
+      <!-- Source of image: https://www.flaticon.com/free-icons/home-->
+      <a href="about.html"><img src="images/home.png" alt="home icon" width="40" height="40"></a>
+    </nav>
+  </div>
+
+  <p>Welcome to our university library website Learning Management System (LMS)!</p>
+  <form method="post">
+    <label>Search our catalogue using some keywords!</label>
+    <br>
+    <input type="text" name="string">
+    <br>
+    <label>Or, quickly narrow down your search with one or more of the following fields:</label>
+    <br>
+    <p>
+      <label>Resource Type:</label>
+      <br>
+      <select name="type" id="type">
+        <option value="selected" selected="selected">Select</option>
+        <option value="books">Books</option>
+        <option value="journals">Journals</option>
+        <option value="dissertations">Dissertations</option>
+        <option value="images">Images</option>
+        <option value="videos">Videos</option>
+      </select>
+      <br>
+      <br>
+      <label>Title</label>
+      <br>
+      <input type="text" name="string">
+      <br>
+      <br>
+      <label>Author</label>
+      <br>
+      <input type="text" name="string">
+      <br>
+      <br>
+      <label>Creator</label>
+      <br>
+      <input type="text" name="string">
+      <br>
+      <br>
+      <label>Publication Date</label>
+      <br>
+      <input type="text" name="string">
+      <br>
+      <br>
+      <label>Subject</label>
+      <br>
+      <input type="text" name="string">
+      <br>
+      <br>
+      <input type="submit" name="submit">
+  </form>
+  <img src="Images\library.jpg" alt="library books">
+</body>
+
+<footer>
+  &copy; 2024 Ottawa Academic University. All Rights Reserved.
+</footer>
+
+
+</html>

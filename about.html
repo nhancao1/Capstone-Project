@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="about.css">
+  <h1>About Us</h1>
+  <title>About Page</title>
+</head>
+
+
+<body>
+  <div class="navbar">
+
+    <nav>
+      <img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="160"
+        height="80">
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.php">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Insert Into Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="books.html">Books</a>
+          <a href="journals.html">Journals</a>
+          <a href="dissertations.html">Dissertations</a>
+          <a href="images.html">Images</a>
+          <a href="videos.html">Videos</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Modify Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="modifybooks.php">Modify Books</a>
+          <a href="modifyjournals.php">Modify Journals</a>
+          <a href="modifydissertations.php">Modify Dissertations</a>
+          <a href="modifyimages.php">Modify Images</a>
+          <a href="modifyvideos.php">Modify Videos</a>
+        </div>
+      </div>
+      <form method="post">
+        <select name="keywords">
+          <option value="">All Fields</option>
+          <option value="">Keywords</option>
+          <option value="title">Title</option>
+          <option value="author">Author</option>
+          <option value="creator">Creator</option>
+          <option value="publication_date">Publication Date</option>
+          <option value="subject">Subject</option>
+        </select>
+      </form>
+      <input type="text" placeholder="Search">
+      <a href="login.php">Login</a>
+      <a href="register.php">Register</a>
+      <a href="logout.php">Logout</a>
+      <!-- Source of image: https://www.freepik.com/icon/group_12099924#fromView=keyword&page=1&position=8&uuid=afe16b11-e65a-4f21-a51f-5c6d41b24121-->
+      <a href="about.html"><img src="images/about.png" alt="about us icon" width="50" height="50"></a>
+    </nav>
+  </div>
+
+  <p>This is our university library website LMS for metadata. The Ottawa Academic University's Library Management System
+    is created by students, for students. Our LMS is designed for use in academic libraries, suing metadata standards
+    such
+    as Dublin Core and MARC21. With an emphasis on efficiency and simplicity, our project aims to assist students by
+    making it easier for them to access library resources, such as books, journals, images and videos. This is further
+    facilitated b an easy-to-use interface, that makes the lives of both students and librarians much easier.
+  </p>
+  Our system consists of two parts, those being the front end website and the back end database. Students can make use
+  of
+  the straight forward design of the website to find the resources they need, while libraries can use it to make any
+  necessary changes to the database. The back end has dedicated tables for different library materials, along with a
+  table
+  for storing login information.
+  </p>
+  With the age of information in full swing, proper access to resources has never been more important for students and
+  librarians alike. The Ottawa Academic University's LMS seeks to make this confusing world of information easier to
+  navigate, and to turn a large catalogue of materials into a veritable asset for any student that needs it.
+  </p>
+  The website and database are both demonstration products, and are not finalized products that are suitable for sale
+  and
+  commercial use. </p>
+  </p>
+
+  <footer>
+    &copy; 2024 Ottawa Academic University. All Rights Reserved.
+  </footer>
+
+</body>
+
+</html>

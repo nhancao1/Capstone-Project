@@ -1,0 +1,199 @@
+body {
+  background-color: #d4e1e9;
+  font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: blue !important;
+  color: white;
+  text-align: center;
+  border: none;
+}
+
+input[type=text] {
+  background-image: ('Picture5.png');
+  /* use the relative path of your icon file */
+  background-size: 20px;
+  /* adjust the size of the icon */
+  background-position: 10px center;
+  /* adjust the position of the icon */
+  background-repeat: no-repeat;
+  /* prevent the icon from repeating */
+  padding-left: 40px;
+  /* add some space for the icon */
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #d3d3d3;
+}
+
+.navbar a {
+  float: left;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding: 15px 15px;
+  ;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 15px 15px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover .dropdown:hover .dropbtn {
+  background-color: azure;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  box-shadow: 0px 10px 15px 0px rgb(0, 0, 0, 0.2);
+}
+
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+  margin: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 5px;
+}
+
+form button {
+  grid-column: 2 / 3;
+  padding: 10px;
+  background-color: #55ACEE;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #6894f2;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: radial-gradient (circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient (circle farthest-corner at 0 140%,
+      #fec564, transparent 50%), radial-gradient (ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient (ellipse farthest-corner at 20% -50%,
+      #5258cf, transparent 50%), radial-gradient (ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient (ellipse farthest-corner at 60% -20%,
+      #893dc2, transparent 50%), radial-gradient (ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient (#6559ca, #bc318f 30%, #e33f5f 50%,
+      #f77638 70%, #fec66d 100%);
+  color: black;
+}
+
+input[type=text] {
+  background-image: ('Picture5.svg');
+  /* use the relative path of your icon file */
+  background-size: 20px;
+  /* adjust the size of the icon */
+  background-position: 10px center;
+  /* adjust the position of the icon */
+  background-repeat: no-repeat;
+  /* prevent the icon from repeating */
+  padding-left: 40px;
+  /* add some space for the icon */
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+
+nav a:hover {
+  color: d3d3d3;
+}
+
+
+#tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #ddd;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}

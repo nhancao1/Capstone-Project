@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="books.css">
+  <h1>Books Page</h1>
+  <title>Catalogue</title>
+</head>
+
+
+<body>
+  <div class="navbar">
+    <nav>
+      
+      <img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="155"
+        height="65">
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.php">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn">Insert Into Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="books.html">Books</a>
+          <a href="journals.html">Journals</a>
+          <a href="dissertations.html">Dissertations</a>
+          <a href="images.html">Images</a>
+          <a href="videos.html">Videos</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Modify Catalogue<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="modifybooks.php">Modify Books</a>
+          <a href="modifyjournals.php">Modify Journals</a>
+          <a href="modifydissertations.php">Modify Dissertations</a>
+          <a href="modifyimages.php">Modify Images</a>
+          <a href="modifyvideos.php">Modify Videos</a>
+        </div>
+      </div>
+      <form method="post">
+        <select name="keywords">
+          <option value="">All Fields</option>
+          <option value="">Keywords</option>
+          <option value="title">Title</option>
+          <option value="author">Author</option>
+          <option value="creator">Creator</option>
+          <option value="publication_date">Publication Date</option>
+          <option value="subject">Subject</option>
+        </select>
+      </form>
+      <input type="text" placeholder="Search">
+      <a href="login.php">Login</a>
+      <a href="register.php">Register</a>
+      <a href="logout.php">Logout</a>
+      <!-- Source of image: <a href="<a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Freepik - Flaticon</a>-->
+      <a href="index.html"><img src="Images/books.png" alt="book icon" width="50" height="50"></a>
+    </nav>
+  </div>
+
+  <form action="insertbooks.php" method="POST">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title">
+    <label for="creator">Creator(s):</label>
+    <input type="text" id="creator" name="creator">
+    <label for="identifier">Identifier (ISBN):</label>
+    <input type="text" id="identifier (ISBN)" name="identifier">
+    <label for="publication_date">Publication Date:</label>
+    <input type="date" id=pub_date name="publication_date">
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description">
+    <label for="publisher">Publisher:</label>
+    <input type="text" id="publisher" name="publisher">
+    <label for="language">Language:</label>
+    <select id="language" name="language">
+      <option value="Select">Select</option>
+      <option value="English">English</option>
+      <option value="French">French</option>
+      <option value="Other">Other</option>
+    </select>
+    <label for="contributor">Contributor(s):</label>
+    <input type="text" id="contributor" name="contributor">
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+    <label for="rights">Rights:</label>
+    <input type="text" id="rights" name="rights">
+    <label for="format">Format:</label>
+    <input type="text" id="format" name="format">
+    <label for="keywords">Keywords:</label>
+    <input type="text" id="keywords" name="keywords">
+    <label for="summary">Summary:</label>
+    <input type="text" id="summary" name="summary">
+    <label for="requester_id">Requester id: </label>
+    <input type="text" id="requester_id" name="requester_id">
+
+    <button type="submit" value="Submit">Submit</button>
+  </form>
+
+  <footer>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    &copy; 2024 Ottawa Academic University. All Rights Reserved.
+  </footer>
+
+</body>
+
+</html>
