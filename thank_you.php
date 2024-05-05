@@ -36,11 +36,9 @@
                 </div>
             </div>
             <input type="text" placeholder="Search">
-            <img src="../library/Images/search.svg" alt="logo">
             <a href="login.php">Login</a>
             <a href="register.php">Register</a>
             <a href="logout.php">Logout</a>
-            <!--<img src="C:\Users\adida\OneDrive - Carleton University\Year 4\Semester 2\IRM4900A (IRM Capstone Project)\IRM Capstone Project Research Paper & Presentation\Work\Code\Toan\Images\search.svg" alt="logo">-->
         </nav>
     </div>
     <?php
