@@ -81,7 +81,7 @@ function test_input($data)
     <div class="navbar">
         <nav>
 
-            <img src="images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="156" height="90">
+            <img src="Images/Ottawa Academic University's Library Management System Logo.png" alt="logo" width="156" height="90">
 
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
@@ -123,7 +123,7 @@ function test_input($data)
             <a href="logout.php">Logout</a>
             <!--<img src="C:\Users\adida\OneDrive - Carleton University\Year 4\Semester 2\IRM4900A (IRM Capstone Project)\IRM Capstone Project Research Paper & Presentation\Work\Code\Toan\Images\search.svg" alt="logo">-->
             <!-- Source of image: https://www.freepik.com/icons/contact From FreePik-->
-            <a href="contact.php"><img src="images/email.png" alt="email icon" width="50" height="50"></a>
+            <a href="contact.php"><img src="Images/email.png" alt="email icon" width="50" height="50"></a>
         </nav>
     </div>
 
